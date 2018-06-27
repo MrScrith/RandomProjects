@@ -76,9 +76,6 @@ class ImgurScraper:
             break
         except:
           print("image not found in format " + ext)
-          
-      break #exit out after one image for testing
-
         
 if __name__ == '__main__':
   args = sys.argv
